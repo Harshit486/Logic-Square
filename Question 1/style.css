@@ -1,0 +1,75 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 50px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 43px;
+    background: linear-gradient(145deg, #d0dcdb, #f7ffff);
+    box-shadow:  34px 34px 68px #98a1a0,
+             -34px -34px 68px #ffffff;
+  }
+  
+  h1 {
+    text-align: center;
+    color: #333;
+  }
+  
+  #output {
+    margin-top: 20px;
+  }
+  
+  .student-mark-sheet {
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .student-name {
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .roll-number {
+    font-size: 16px;
+    color: #555;
+  }
+  
+  .subject-marks {
+    font-size: 14px;
+    color: #777;
+  }
+  
+  .total-marks {
+    font-size: 16px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .pass-fail-status {
+    font-size: 16px;
+  }
+  
+  .pass-fail-status.pass {
+    color: #008000;
+  }
+  
+  .pass-fail-status.fail {
+    color: #FF0000; 
+  }
+  
+  #search {
+    width: 75%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 8px; 
+    box-sizing: border-box;
+  }
